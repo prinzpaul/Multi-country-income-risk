@@ -1,0 +1,38 @@
+Files used for analysis listed by source
+
+GRID database
+Income_dynamics.csv                         - Moments of 1y and 5y residual income changes for countries analyzed
+Income_dynamics_incl_subpopulations.csv     - Same as before but also includes these moments by gender and age group
+
+Jarocinski and Karadi (2020) FOMC shock series
+https://github.com/marekjarocinski/jkshocks_update_fed/tree/main
+fomc_surprises_jk.csv                       - narrow window (30 minutes) surprises around FOMC announcements since 1988 
+                                              updated by Jarocinski and Karadi (source data)
+shocks_fed_jk_t.csv                         - Monetary Policy and Central Bank Information shocks, by FOMC announcement, 
+                                              indexed by date-time
+shocks_fed_jk_m.csv                         - Monetary Policy and Central Bank Information shocks, aggregated to monthly 
+                                              frequency (zero if no shocks in a given month)
+
+Miranda-Agrippino extension of Romer & Romer shock series
+https://silviamirandaagrippino.com/code-data
+NarrativeRomerRomerShock.xlsx               - Monetary policy surprises constructed using narrative accounts of FOMC 
+                                              meetings since 1960. Extension of Romer & Romer (2004)
+
+Bu, Rogers & Wu monetary policy shock series
+https://www.federalreserve.gov/econres/feds/a-unified-measure-of-fed-monetary-policy-shocks.htm
+brw-shock-series.csv                        - Measure of Fed monetary policy shocks from Bu, Rogers & Wu (2021)
+
+Bauer & Swanson monetary policy shock series
+https://www.michaeldbauer.com/publication/mps/
+FOMC_Bauer_Swanson.xlsx                     - Measure of Fed monetary policy shocks from Bauer & Swanson (2022)
+                                              MPS in the "Monthly SVAR Data" sheet in columns H (MPS) and I (MPS_ORTH),
+                                              MPS_ORTH is the orthogonalized version of the monetary policy shocks (MPS)
+
+John Fernald TFP shocks
+https://www.johnfernald.net/TFP
+quarterly_TFP.xlsx                          - Utilization-adjusted quarterly-TFP series for the U.S. Business Sector, 
+                                              produced by John Fernald
+
+Känzig Oil shocks
+https://www.openicpsr.org/openicpsr/project/122886/version/V1/view
+to be added
